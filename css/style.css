@@ -13,12 +13,7 @@ h1,h2,h3 {
     font-size: 1.5rem;
 }
 
-header {
-    background-color: #000;
-    color: #DEC9E9;
-}
-
-footer {
+header,footer {
     background-color: #000;
     color: #DEC9E9;
 }
@@ -30,37 +25,35 @@ footer {
     padding: 2em;
 }
 
-ul li {
+ul, ol {
     padding: o;
     list-style: none;
 }
 
-ol li {
-    padding: o;
-    list-style: none;
-}
 
-nav> a {
+nav ul li a {
     color: #DEC9E9;
     text-decoration: none;
 }
 
-li + li {
+#intro + section {
     background-color: #000;
     color: #DEC9E9;
 }
 
-div > a > img {
+article > img {
     width: 150px;
     border-radius: 50%;
     filter: grayscale(100%);
     margin: 1em;
 }  
 
-li:nthd(even) {
+li:nth-child(even) 
+{
     color: #dc33dc;
 }
 
-div > img {
+
+main > img {
     width: 100%;
 }
